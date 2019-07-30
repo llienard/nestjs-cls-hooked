@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "es5",
+    "module": "es2015",
+    "sourceMap": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "baseUrl": "./src",
+    "outDir": "./build",
+    "types": [
+      "@types/node",
+      "jest"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "@types"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noResolve": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "spec/**/*.ts",
+    "@types/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
